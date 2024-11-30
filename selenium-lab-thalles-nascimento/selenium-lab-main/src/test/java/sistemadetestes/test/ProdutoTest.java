@@ -2,15 +2,23 @@ package sistemadetestes.test;
 
 import org.junit.*;
 import org.junit.runners.MethodSorters;
-import sistemadetestes.pageObject.LoginPO;
 import sistemadetestes.pageObject.ProdutoPO;
 
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+
+/**
+ * Classe que cria os testes
+ * Herdando da BaseTest
+ * */
 
 @FixMethodOrder(MethodSorters.NAME_ASCENDING)
 public class ProdutoTest extends BaseTest{
     private static ProdutoPO produtoPO;
+
+    /**
+     * Método para preparar os testes
+     * @Driver driver
+     * */
 
     @BeforeClass
     public static void prepararTestes() {
@@ -25,6 +33,10 @@ public class ProdutoTest extends BaseTest{
 //        produtoPO.btnCriar.click();
 //    }
 
+    /**
+     * Limpar os campos após realizar um teste
+     * */
+
     @After
     public void limpar(){
         produtoPO.inputCodigo.clear();
@@ -33,6 +45,11 @@ public class ProdutoTest extends BaseTest{
         produtoPO.inputValor.clear();
         produtoPO.inputData.clear();
     }
+
+
+    /**
+     * Teste que verificar se haverá a mensagem de erro caso tenha algum campo vázio
+     * */
 
     @Test
     public void teste06_mensagemErro(){
@@ -48,6 +65,10 @@ public class ProdutoTest extends BaseTest{
         assertEquals(mensagem,"Todos os campos são obrigatórios para o cadastro!");
 
     }
+
+    /**
+     * Teste que verificar se será possível cadastrar dois códigos iguais
+     * */
 
     @Test
     public void teste07_negarCodigosIguais(){
@@ -75,6 +96,10 @@ public class ProdutoTest extends BaseTest{
         assertEquals(mensagem,"");
 
     }
+
+    /**
+     * Teste que verificar se será possível cadastrar letras nos campos de número e números em campo de texto
+     * */
 
     @Test
     public void teste08_aceitarLetraENumerosNosCamposInverso(){
