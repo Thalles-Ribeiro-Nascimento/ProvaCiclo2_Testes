@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="fadb3f43-de89-4b23-8218-62c707ff55ea" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Planilha_de_planejamento_de_testes.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/Planilha_de_planejamento_de_testes.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/sistemadetestes/test/ProdutoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/sistemadetestes/test/ProdutoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/sistemadetestes/test/ProdutoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/sistemadetestes/test/ProdutoTest.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 8
+}]]></component>
+  <component name="ProjectId" id="2pXwFNHhwW7TGGqTnKXGUVe72V2" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="ProdutoTest.teste07_negarCodigosIguais" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="automatizado" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="sistemadetestes.test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="sistemadetestes.test" />
+      <option name="MAIN_CLASS_NAME" value="sistemadetestes.test.ProdutoTest" />
+      <option name="METHOD_NAME" value="teste07_negarCodigosIguais" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ProdutoTest.teste07_negarCodigosIguais" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="fadb3f43-de89-4b23-8218-62c707ff55ea" name="Changes" comment="" />
+      <created>1732925624844</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1732925624844</updated>
+    </task>
+    <servers />
+  </component>
+</project>

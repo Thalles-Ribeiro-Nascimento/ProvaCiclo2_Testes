@@ -93,7 +93,7 @@ public class ProdutoTest extends BaseTest{
 
         produtoPO.btnSalvarProduto.click();
         String mensagem = produtoPO.obterMensagem();
-        assertEquals(mensagem,"");
+        assertEquals(mensagem,"Código já existe!");
 
     }
 
@@ -102,7 +102,7 @@ public class ProdutoTest extends BaseTest{
      * */
 
     @Test
-    public void teste08_aceitarLetraENumerosNosCamposInverso(){
+    public void teste08_naoAceitarLetraENumerosNosCamposInverso(){
         produtoPO.inputCodigo.sendKeys("dell");
         produtoPO.inputNome.sendKeys("1330");
         produtoPO.inputQtde.sendKeys("lenovo");
@@ -112,7 +112,7 @@ public class ProdutoTest extends BaseTest{
         produtoPO.btnSalvarProduto.click();
 
         String mensagem = produtoPO.obterMensagem();
-        assertEquals(mensagem,"");
+        assertEquals(mensagem,"Campos inválidos!");
     }
 
 }
